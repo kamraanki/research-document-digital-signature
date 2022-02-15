@@ -16,7 +16,7 @@ partners to this DLT enabled platform to be able to verify the signature to chec
 - We have two functionalities i.e. Upload research document and Download research document.
 - Implementation of "Upload research document functionality" is as following:-
     > Select a research document file (*.pdf) and it's checksum will be calculated automatically.
-    > Next we need to sign the checksum ny clicking "Sihn checksum" button and document will be signed with the help of Metamask.
+    > Next we need to sign the checksum ny clicking "Sign checksum" button and document will be signed with the help of Metamask.
     > After this we need to submit this document. Document will be uploaded to middleware server and checksum will be verified.
     > After successful verification of checksum from middleware, we will create a transaction and will store checksum on chain. (We will also send digital signature on chain for verification)
     > In smart contract author digital signature will be verified, once verified checksum will be stored in Blockchain.
